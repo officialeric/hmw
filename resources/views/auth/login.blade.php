@@ -1,7 +1,10 @@
 <x-guest-layout>
     <div class="container mt-5">
         <div class="row justify-content-center">
-            <div class="col-md-6">
+            <div class="pb-2 text-center">
+                <h3>Admin Panel</h3>
+            </div>
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-header text-center">
                         <h4>{{ __('Login') }}</h4>

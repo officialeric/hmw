@@ -11,6 +11,7 @@ Route::view('/wishlist','wishlist')->name('wishlist');
 Route::view('/cart','cart')->name('cart');
 Route::view('/compare','compare')->name('compare');
 Route::view('/login-register','login-register')->name('login-register');
+Route::view('/admin','auth.login')->name('login');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
